@@ -1,0 +1,83 @@
+.basicPackage {
+  position: relative;
+  font-weight: 600;
+}
+.perMonthbillAnnualy {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-family: var(--font-poppins);
+  color: var(--color-gray-100);
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  font-size: var(--font-size-37xl);
+  color: var(--color-white);
+}
+.checkListIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.unlimitedWatchersAccess {
+  position: relative;
+  font-weight: 500;
+}
+.checklist01,
+.checklist032 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.checklist032 {
+  color: var(--color-white);
+}
+.basicPackageParent,
+.checklist {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checklist {
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-poppins);
+}
+.basicPackageParent {
+  gap: var(--gap-5xl);
+}
+.registerNowWrapper {
+  border-radius: var(--br-xs);
+  background-color: var(--color-cornflowerblue);
+  width: 224px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-45xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.frameParent {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl) var(--padding-9xl);
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-19xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-cornflowerblue);
+  font-family: var(--font-urbanist);
+}

@@ -1,0 +1,116 @@
+.animation {
+  position: relative;
+  font-weight: 900;
+}
+.animationWrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: -10px;
+  left: -40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.section {
+  background-color: var(--color-gray-400);
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.enhanceUserExperience {
+  align-self: stretch;
+  position: relative;
+}
+.textSide {
+  width: 857px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+}
+.makersButton {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-9xl);
+  align-items: center;
+  justify-content: center;
+}
+.buttonSide {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inter);
+}
+.container {
+  border-radius: var(--br-base);
+  background-color: var(--color-gray-300);
+  width: 1200px;
+  flex-direction: row;
+  padding: var(--padding-21xl);
+  align-items: center;
+  justify-content: space-between;
+}
+.container,
+.container1,
+.cta {
+  display: flex;
+  box-sizing: border-box;
+}
+.cta {
+  background-color: var(--color-gray-400);
+  width: 1440px;
+  flex-direction: column;
+  padding: var(--padding-21xl) var(--padding-xl);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+}
+.container1 {
+  width: 1200px;
+  flex-direction: row;
+  padding: var(--padding-61xl) 0 100px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.footer,
+.project1 {
+  display: flex;
+  flex-direction: column;
+}
+.footer {
+  background-color: var(--color-gray-400);
+  width: 1440px;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.project1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-123xl);
+  color: var(--color-gray-600);
+  font-family: var(--font-urbanist);
+}

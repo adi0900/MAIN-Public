@@ -1,0 +1,55 @@
+.mediaContainerChild {
+  position: relative;
+  width: 33.79px;
+  height: 32px;
+}
+.mediaContainer {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.isekai,
+.transportedIntoAnother {
+  align-self: stretch;
+  position: relative;
+}
+.isekai {
+  line-height: 24px;
+  font-weight: 600;
+}
+.transportedIntoAnother {
+  font-size: var(--font-size-base);
+  line-height: 150%;
+}
+.isekaiParent {
+  align-self: stretch;
+  gap: var(--gap-5xs);
+}
+.isekaiParent,
+.mediaObjects,
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.text {
+  align-self: stretch;
+}
+.mediaObjects {
+  border-radius: var(--br-xs);
+  background-color: var(--color-cornflowerblue);
+  width: 320px;
+  padding: var(--padding-21xl) var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

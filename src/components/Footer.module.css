@@ -1,0 +1,66 @@
+.sitemap {
+  align-self: stretch;
+  position: relative;
+  display: inline-block;
+  height: 31px;
+  flex-shrink: 0;
+}
+.aboutUs {
+  position: relative;
+  font-weight: 500;
+}
+.navigationItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.promos {
+  position: relative;
+}
+.column,
+.navigationLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationLinks {
+  align-self: stretch;
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+}
+.column {
+  width: 144px;
+  gap: var(--gap-3xs);
+}
+.mdiinstagramIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mdiinstagramParent {
+  flex-direction: row;
+  gap: var(--gap-base);
+}
+.columnStack,
+.mdiinstagramParent,
+.navigationLinks2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationLinks2 {
+  align-self: stretch;
+  flex-direction: column;
+}
+.columnStack {
+  flex-direction: row;
+  gap: var(--gap-21xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

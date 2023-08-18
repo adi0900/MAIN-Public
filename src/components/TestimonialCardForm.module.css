@@ -1,0 +1,215 @@
+.whatOurMember {
+  position: relative;
+  display: inline-block;
+  width: 396px;
+}
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.testChild {
+  position: relative;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+}
+.test {
+  width: 127px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.kSatisfiedCustomer {
+  position: relative;
+  font-weight: 500;
+}
+.testimonialParent,
+.textCountParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textCountParent {
+  gap: var(--gap-5xl);
+  font-size: var(--font-size-lg);
+}
+.testimonialParent {
+  gap: var(--gap-121xl);
+}
+.frameChild,
+.frameItem {
+  position: relative;
+  border-radius: 50%;
+  background-color: var(--color-cadetblue);
+  width: 16px;
+  height: 16px;
+}
+.frameItem {
+  background-color: var(--color-gray-200);
+  width: 12px;
+  height: 12px;
+}
+.ellipseParent {
+  position: absolute;
+  top: 300px;
+  left: 304px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.itHasBeen {
+  position: absolute;
+  top: 84px;
+  left: 54px;
+  display: inline-block;
+  width: 560px;
+}
+.ellipseIcon {
+  position: relative;
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+}
+.edwardNewgate,
+.onePieceEnjoyer {
+  position: relative;
+  font-weight: 600;
+}
+.onePieceEnjoyer {
+  font-size: var(--font-size-base);
+  font-weight: 500;
+  color: var(--color-gray-200);
+}
+.edwardNewgateParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.ellipseGroup {
+  position: absolute;
+  top: 208px;
+  left: 49px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.claritystarSolidIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.claritystarSolidParent {
+  position: absolute;
+  top: 44px;
+  left: 460px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameParent {
+  align-self: stretch;
+  position: relative;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gray-300);
+  width: 664px;
+  overflow: hidden;
+  flex-shrink: 0;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-700);
+  font-family: var(--font-poppins);
+}
+.testimonials {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-121xl);
+  z-index: 0;
+}
+.testimonial1 {
+  position: relative;
+  font-weight: 900;
+}
+.testimonialWrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: -180px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+  font-size: var(--font-size-123xl);
+  color: var(--color-gray-600);
+}
+.remixIconslinesystemarrow {
+  position: relative;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.remixIconslinesystemarrowContainer,
+.remixIconslinesystemarrowWrapper {
+  border-radius: var(--br-31xl);
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  align-items: flex-start;
+}
+.remixIconslinesystemarrowWrapper {
+  border: 1px solid var(--color-white);
+  display: none;
+  justify-content: flex-start;
+  transform: rotate(-180deg);
+  transform-origin: 0 0;
+}
+.remixIconslinesystemarrowContainer {
+  background-color: var(--color-white);
+  display: flex;
+  justify-content: flex-end;
+}
+.arrow,
+.cta {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+}
+.arrow {
+  margin: 0 !important;
+  position: absolute;
+  top: 218px;
+  left: 609px;
+  width: 744px;
+  flex-direction: row;
+  padding: var(--padding-3xs);
+  justify-content: flex-end;
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.cta {
+  background-color: var(--color-gray-400);
+  width: 1440px;
+  flex-direction: column;
+  padding: var(--padding-61xl) var(--padding-xl);
+  justify-content: center;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-white);
+  font-family: var(--font-urbanist);
+}

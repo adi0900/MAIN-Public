@@ -1,0 +1,50 @@
+.icbaselineCopyrightIcon {
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.animeCenter {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 600;
+}
+.icbaselineCopyrightParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.termOfUse {
+  position: relative;
+}
+.navigationItem,
+.navigationItemParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationItemParent {
+  gap: var(--gap-base);
+}
+.copyright,
+.copyright1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-5xl) 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.copyright {
+  background-color: var(--color-gray-400);
+  border-top: 1px solid var(--color-white);
+  flex-direction: column;
+  padding: 0 var(--padding-101xl);
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gainsboro-200);
+  font-family: var(--font-poppins);
+}

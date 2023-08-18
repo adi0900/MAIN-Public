@@ -1,0 +1,54 @@
+.columnChild {
+  position: relative;
+  border-radius: 50%;
+  width: 53px;
+  height: 60px;
+  object-fit: cover;
+}
+.animeSite {
+  position: relative;
+  font-weight: 600;
+}
+.animeSiteWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.highlightImpactsOf {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 150%;
+  font-weight: 500;
+}
+.socialMedia1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.column,
+.socialMedia {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.socialMedia {
+  align-self: stretch;
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-5xs) 0;
+  gap: var(--gap-5xl);
+}
+.column {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

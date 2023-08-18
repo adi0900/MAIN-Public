@@ -1,0 +1,142 @@
+.frameChild,
+.frameInner,
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: -0.5px;
+  border-radius: var(--br-xs);
+  width: 441px;
+  height: 301px;
+  object-fit: cover;
+}
+.frameInner,
+.frameItem {
+  top: 108px;
+  left: 286px;
+  width: 307.85px;
+  height: 264px;
+}
+.frameInner {
+  top: 328px;
+  left: 127.5px;
+  width: 312.56px;
+  height: 240px;
+}
+.rectangleParent {
+  position: relative;
+  width: 637px;
+  height: 568px;
+}
+.image,
+.imageSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image {
+  align-self: stretch;
+  flex: 1;
+  background-color: var(--color-gray-1000);
+  flex-direction: column;
+}
+.imageSide {
+  width: 660px;
+  height: 519px;
+  flex-direction: row;
+}
+.transformYourCollection {
+  align-self: stretch;
+  position: relative;
+}
+.checkListIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.peekFiction {
+  position: relative;
+  font-weight: 500;
+}
+.checklist01 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}
+.checklist,
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.checklist {
+  gap: var(--gap-base);
+  font-size: var(--font-size-base);
+  color: var(--color-gainsboro-100);
+  font-family: var(--font-poppins);
+}
+.content {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.button1 {
+  position: relative;
+  line-height: 40px;
+  font-weight: 600;
+}
+.button {
+  background-color: var(--color-cornflowerblue);
+}
+.button,
+.button2 {
+  border-radius: var(--br-3xs);
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-10xs) var(--padding-9xl);
+  align-items: center;
+  justify-content: center;
+}
+.buttonGroup,
+.textSide {
+  display: flex;
+  align-items: flex-start;
+}
+.buttonGroup {
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-base);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-inter);
+}
+.textSide {
+  width: 500px;
+  flex-direction: column;
+  padding: var(--padding-3xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.container,
+.heroSection {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-101xl) 0;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroSection {
+  background-color: var(--color-gray-400);
+  width: 1440px;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-37xl);
+  color: var(--color-white);
+  font-family: var(--font-urbanist);
+}
